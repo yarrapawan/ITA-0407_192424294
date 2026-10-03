@@ -1,6 +1,3 @@
-# Program 7: Write R programs for basic tasks: Factors of a number, generate a vector of 10 random integers between -50 and 50, print numbers 1-100 with FizzBuzz logic.
-
-# Factors of a number
 num <- 12
 factors <- c()
 for (i in 1:num) {
@@ -11,7 +8,6 @@ for (i in 1:num) {
 print("Factors of the number:")
 print(factors)
 
-# 10 random integers between -50 and 50
 set.seed(123)
 print("10 random integers:")
 print(sample(-50:50, 10, replace = TRUE))
