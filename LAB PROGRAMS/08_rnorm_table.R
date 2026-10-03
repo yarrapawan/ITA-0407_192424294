@@ -1,5 +1,3 @@
-# Program 8: Generate random normal numbers, round them, and display their frequency table as a data frame.
-
 set.seed(123)
 x <- rnorm(100)
 rounded <- round(x)
