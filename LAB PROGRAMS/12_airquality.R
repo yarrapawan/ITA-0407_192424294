@@ -1,0 +1,8 @@
+# Program 12: Perform data reshaping on air quality dataset: melt, cast, compute monthly averages for Ozone, Solar.R, Wind, and Temperature.
+
+data(airquality)
+monthly_avg <- aggregate(
+  cbind(Ozone, Solar.R, Wind, Temp) ~ Month,
+  data = airquality, FUN = mean, na.rm = TRUE)
+print("Monthly averages:")
+print(monthly_avg)
